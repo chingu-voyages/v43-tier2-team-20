@@ -1,0 +1,233 @@
+* {
+    border: solid 1px teal;
+}
+
+body {
+    margin: 0;
+    background-color: #E3E3E3;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.label-1-container {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 8rem;
+    background-color: #FFF;
+    margin: 2rem;
+}
+
+.cover-container {
+    display: flex;
+    align-items: center;
+}
+
+.label-2-container {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 8rem;
+    background-color: #FFF;
+    margin: 2rem;
+}
+
+.cover-svg {
+    display: flex;
+    float: left;
+    align-self: center;
+}
+
+.cover-logo {
+    display: flex;
+    float: right;
+    align-self: center;
+}
+
+.last-updated-container {
+    margin-left: auto;
+}
+
+.label-3-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    width: 20%;
+    height: 40rem;
+    padding: 2rem;
+    background-color: #FFF;
+    margin: 2rem;
+}
+
+.label-3-img-container {
+    display: inline-block;
+    width: 20%;
+    height: 43rem;
+    z-index: -99;
+    margin-bottom: 10rem;
+}
+
+.label-3-img {
+    position: absolute;
+    height: 44rem;
+    margin-top: -21.25rem;
+    margin-right: 12rem;
+    z-index: -99;
+}
+
+.spend-logo-container {
+    display: flex;
+    width: 100%;
+}
+
+.spend-logo {
+    display: flex;
+    align-self: center;
+    margin: 1rem;
+}
+
+.spend-ln-text-container {
+    display: flex;
+    align-self: center;
+}
+
+.spending-management-container {
+    width: 100%;
+}
+
+.landing-page-dashboard-container {
+    width: 100%;
+}
+
+.ten-sections-btn {
+    width: 25%;
+    background: #7C5CFC;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.bi-check {
+    background: #7C5CFC
+}
+
+.bullet-points {
+    display: flex;
+    flex-wrap: row;
+    width: 100%;
+}
+
+.checkmark-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bullet-points-container-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.checkmark-text-container {
+    align-self: center;
+}
+
+
+.label-4-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A202C;
+    color: #FFF;
+    width: 45%;
+    height: 60rem;
+    margin: 2rem;
+}
+
+.license-container {
+    display: flex;
+    width: 80%;
+    padding: 2rem;
+}
+
+.license-bulletpoint-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.license-text-container {
+    align-self: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-logo-container {
+    position: relative;
+    margin-left: auto;
+}
+
+.vector-p {
+    background: #000;
+    display: block;
+}
+
+.vector-p-bottom {
+    position: absolute;
+    left: 0%;
+    right: 72.24%;
+    top: 78.27%;
+    bottom: 0%;
+}
+
+.license-hr {
+    width: 80%;
+    color: #E3E7EF;
+}
+
+.license-email-container {
+    width: 80%;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.license-email-address {
+    width: 80%;
+    padding-left: 1rem;
+}
+
+.license-thanks-container {
+    display: flex;
+    width: 80%;
+    padding: 2rem;
+}
+
+.thanks-gesture-container {
+    margin-left: auto;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.license-social-media-container {
+    display: flex;
+    padding: 2rem;
+    width: 80%;
+}
+
+.license-media-icons-container {
+    margin-left: auto;
+}
