@@ -1,3 +1,6 @@
+Budget Tracker
+App for tracking all your expenses and ...
+
 # voyage-tasks
 
 Your project's `readme` is as important to success as your code. For 
