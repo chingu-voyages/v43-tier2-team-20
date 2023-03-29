@@ -1,0 +1,51 @@
+
+$light-color:#e7d6f5;
+$primary-color:#b87fe7;
+$secondary-color:#682694;
+$font-stack: Plus Jakarta Sans;
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+
+.menu-nav{
+    background-color: $primary-color;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    
+    ul{
+display:flex;
+list-style-type:none;
+
+
+    }
+    li{
+        padding: 0px;
+    
+    }
+    a:hover{
+        color:$secondary-color;
+    }
+    a{
+        color:#e7d6f5;
+    }
+}
+
+body{
+background-color: $light-color;
+line-height: 150%;
+font-family: $font-stack;
+}
+.logo{
+    width:20%;
+   justify-content: center
+}
+h1{
+    font-size: 50px;
+   
+   z-index:2;
+   padding:2rem;
+}

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-nav {
+  background-color: #b87fe7;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.menu-nav li {
+  padding: 0px;
+}
+.menu-nav a:hover {
+  color: #682694;
+}
+.menu-nav a {
+  color: #e7d6f5;
+}
+
+body {
+  background-color: #e7d6f5;
+  line-height: 150%;
+  font-family: Plus Jakarta Sans;
+}
+
+.logo {
+  width: 20%;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  z-index: 2;
+  padding: 2rem;
+}/*# sourceMappingURL=App.css.map */

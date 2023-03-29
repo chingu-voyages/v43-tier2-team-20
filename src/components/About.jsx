@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-        <nav>
+        <nav className='menu-nav'>
         <ul>
             <li>
                 <a href="">About</a>

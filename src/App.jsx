@@ -1,6 +1,6 @@
 import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
-import './App.css'
+import './scss/App.css'
 import About from './components/About'
 import Contact from './components/Contact'
 import Header from './components/Header'

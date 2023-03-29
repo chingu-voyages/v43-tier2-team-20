@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 function Contact() {
   return (
     <div>
-    <nav>
+    <nav className='menu-nav'>
         <ul>
             <li>
                 <a href="">Contact</a>

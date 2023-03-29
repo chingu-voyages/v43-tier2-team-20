@@ -4,7 +4,7 @@ function Login() {
   return (
     <div>
     <form action=''></form>
-        <button type='submit' className='login'>Log in</button>
+        <button type='submit' className='login-btn'>Log in</button>
         
     </div>
   )
