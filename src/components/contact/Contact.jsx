@@ -4,13 +4,15 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-    <nav className='menu-nav'>
+    contact
+    {/* <nav className='menu-nav'>
         <ul>
             <li>
                 <a href="">Contact</a>
             </li>
         </ul>
-    </nav></div>
+    </nav> */}
+    </div> 
   )
 }
 

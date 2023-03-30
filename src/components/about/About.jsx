@@ -2,14 +2,14 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-        <nav className='menu-nav'>
+    <div>About
+        {/* <nav className='menu-nav'>
         <ul>
             <li>
                 <a href="">About</a>
             </li>
         </ul>
-    </nav>
+    </nav> */}
     </div>
   )
 }
