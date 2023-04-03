@@ -1,0 +1,19 @@
+header{
+    width:100%;
+    background-color: $primary-color;
+    box-shadow: 3px 3px 3px ($secondary-color, $alpha:0.2);
+
+    .navbar{
+        display: flex;
+        justify-content:space-between;
+        background-color: $primary-color;
+        height: 50px;
+        ul{
+            display:flex;
+            list-style-type:none;
+                }
+                li{
+                    padding: 0px;
+                }
+    }
+}

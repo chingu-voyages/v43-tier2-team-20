@@ -1,7 +1,7 @@
-
+// @import '../components/header/Header';
 $light-color:#e7d6f5;
-$primary-color:#b87fe7;
-$secondary-color:#682694;
+$primary-color:#b223f5;
+$secondary-color:#40135e;
 $font-stack: Plus Jakarta Sans;
 
 *{
@@ -9,44 +9,92 @@ $font-stack: Plus Jakarta Sans;
     margin:0;
     padding: 0;
 }
-
-// .menu-nav{
-//     background-color: $primary-color;
-//     height: 50px;
-//     display:flex;
-//     justify-content: space-between;
+.container{
+    padding:60px;
+    margin: 20px;
+    display: flex ;
+    position: absolute;
+    overflow: hidden;
     
-//     ul{
-// display:flex;
-// list-style-type:none;
-
-
-//     }
-//     li{
-//         padding: 0px;
+}
+header{
+    width:100%;
+    background-color: $primary-color;
+   // box-shadow: 3px 3px 3px color($secondary-color, $alpha:0.2);
+    .navbar{
+        background-color: $primary-color;
+        height: 50px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        position:relative;
+        z-index: 999;
+        width:100%;
+        img{
+            width:32%;
+            padding:2px;
+            margin-top:2px;
+        }
+        ul{
+            display:flex;
+            list-style-type:none;
+            margin-left: 20%;
+            
+            
+            
+        }
+        li{
+            padding: 5px;
+            font-size:2 rem
+            
+        }
+        li:hover{
+            color:$secondary-color;
+        }
+        a{
+            color:#e7d6f5;
+        }
+    }
     
-//     }
-//     a:hover{
-//         color:$secondary-color;
-//     }
-//     a{
-//         color:#e7d6f5;
-//     }
-// }
-
+}
 body{
 background-color: $light-color;
-line-height: 150%;
+//line-height: 150%;
 font-family: $font-stack;
 }
-.logo{
-    width:20%;
-   justify-content: center
-}
+
 h1{
     font-size: 50px;
-    color:$primary-color;
+    color:$secondary-color;
+    
    
    z-index:2;
    padding:2rem;
 }
+.graph{
+    display:flex;
+    justify-content: center;
+    
+}
+.graph-tittle{
+    margin-bottom:4%;
+  text-align: center;
+  
+  
+}
+.graph-tittle{
+    position:absolute;
+    left:0;
+    right:0;
+    top:65%;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(20, 153, 158);
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    h1 {
+      
+  }

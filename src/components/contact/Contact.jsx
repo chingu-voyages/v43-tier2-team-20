@@ -4,7 +4,7 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-    contact
+    Contact
     {/* <nav className='menu-nav'>
         <ul>
             <li>
